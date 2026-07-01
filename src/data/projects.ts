@@ -35,7 +35,7 @@ export interface Project {
   keywords: string[];
 }
 
-export const projects: Project[] = db.projects as Project[];
+export const projects: Project[] = db.projects as unknown as Project[];
 
 export function getProject(id: string): Project | undefined {
   return projects.find((p) => p.id === id);
