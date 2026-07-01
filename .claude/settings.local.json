@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/a1234/Public/sabi_verse_app/**)",
+      "Bash(npm run *)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(open http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(mkdir -p /Users/a1234/Public/sabi_verse_app/.claude)",
+      "Bash(mkdir -p /Users/a1234/Public/sabi_verse/.claude)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm install *)"
+    ]
+  }
+}
